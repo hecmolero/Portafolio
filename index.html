@@ -5,35 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio HMA</title>
     <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet"  type="text/css" href="css/estilos.css" />
 </head>
 <body>
-    <header>  
+    <header class="header">  
         <div> 
-            <figure>
+            <figure class="logo">
                 <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/726/3509744726_1cf4a48d-8e02-472f-9b76-124d23d2181b.png?cb=1597205750" width="50"> 
             </figure>
-        <nav>   
-            <ol>
-                <li>
-                    <a class="link" href="#portafolio">Portafolio</a>
-                </li>
-                <li>
-                    <a class="link" href="#experiencia">Experiencia</a>
-                </li>
-                <li>
-                    <a class="link" href="#contacto">Trabajemos Juntos</a>
-                </li>
+            <nav class="menu">   
+                <ol>
+                    <li>
+                        <a class="link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#experiencia">Experiencia</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contacto">Trabajemos Juntos</a>
+                    </li>
 
-            </ol>
-        </nav>
+                </ol>
+            </nav classsssssss>
         </div>
     </header>
-    <section>
+  
+    <section class="hero">
         <h1>
-            Hola soy <strong>H&eacute;ctor Molero</strong> Desarrollador <strong>JavaScript</strong> con <br>pasión por la<strong> enseñanza</strong>
+            Hola! Soy <strong>H&eacute;ctor Molero</strong><br>Desarrollador <strong>JavaScript</stron<br> con <br>pasión por la<strong> enseñanza</strong>
         </h1>
-        
         <img src="https://applicantes.com/wp-content/uploads/2018/05/programador.jpg" width=500  alt="Imagen principal del sitio">
         
         <!-- https://concepto.de/wp-content/uploads/2018/09/proyecto-e1536250343922.jpg 
@@ -42,13 +43,18 @@
     </section>
     
     <section id="portafolio">
-        <h2>PORTAFOLIO (Proyectos Destacados</h2>
-        <article>
-            <h3>Platzi Video</h3>
-            <h6>React Native / React</h6>
-            <p><small><strong>Fecha:</strong> 11/08/2020</small></p>
-            <p><small><strong>Puedes verlo en: </strong>www.platzi.com/native</small></p> 
-            <p>Platzi video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear vista detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataformas.</p>
+        <h2>PORTAFOLIO (Proyectos Destacados)</h2>
+        <article class="project">
+                <div class="project-details" width=500>
+                <h3 class="proyect-title">Platzi Video</h3>
+                <h6 class="project-curso">React Native / React</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 11/08/2020</small></p>
+                <p class="project-url"><small><strong>Puedes verlo en: </strong>www.platzi.com/native</small></p> 
+                <p class="project-description">Platzi video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear vista detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataformas.</p>
+            </div>
+            <figure class="project-imageContainer">
+                <img src="img/platzi-video.png" width="500">
+            </figure>
         </article>
     </section>
 
