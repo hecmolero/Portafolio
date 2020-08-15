@@ -78,10 +78,6 @@ h1 strong{
     background-color: white;
 }
 
-.works-experiencia{
-    
-}
-
 .experiens{
     display: flex;
     justify-content: space-between;    
@@ -109,8 +105,25 @@ figure{
     align-items: center;
     justify-content: space-between;
 }
-.form-email{
-
+.form-email input{
+    border-color: gris;
+    border-style: solid;
+    border-radius: 7px;
+    padding: 5px 20px 5px 25px;
+    background-image: url(../img/envelope.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+.form-email button{
+    display: block;
+    padding: 5px 20px;
+    border-color: gris;
+    border-style: solid;
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 
