@@ -10,25 +10,14 @@
 </head>
 <body>
     <header class="header">  
-        <div> 
-            <figure class="logo">
-                <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/726/3509744726_1cf4a48d-8e02-472f-9b76-124d23d2181b.png?cb=1597205750" width="50"> 
-            </figure>
-            <nav class="menu">   
-                <ol>
-                    <li>
-                        <a class="link" href="#portafolio">Portafolio</a>
-                    </li>
-                    <li>
-                        <a class="link" href="#experiencia">Experiencia</a>
-                    </li>
-                    <li>
-                        <a class="link" href="#contacto">Trabajemos Juntos</a>
-                    </li>
-
-                </ol>
-            </nav classsssssss>
-        </div>
+        <figure class="logo">
+            <img src="img/logoHMA.png">
+        </figure>
+        <nav class="menu">   
+            <a class="link" href="#portafolio">Portafolio</a>
+            <a class="link" href="#experiencia">Experiencia</a>
+            <a class="link" href="#contacto">Trabajemos Juntos</a>
+        </nav>
     </header>
   
     <section class="hero">
@@ -45,7 +34,7 @@
     <section id="portafolio">
         <h2>PORTAFOLIO (Proyectos Destacados)</h2>
         <article class="project">
-                <div class="project-details" width=500>
+            <div class="project-details" width=500>
                 <h3 class="proyect-title">Platzi Video</h3>
                 <h6 class="project-curso">React Native / React</h6>
                 <p class="project-date"><small><strong>Fecha:</strong> 11/08/2020</small></p>
@@ -56,6 +45,18 @@
                 <img src="img/platzi-video.png" >
             </figure>
         </article>
+        <article class="project">
+            <div class="project-details" width=500>
+            <h3 class="proyect-title">Platzi Video</h3>
+            <h6 class="project-curso">React Native / React</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 11/08/2020</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en: </strong>www.platzi.com/native</small></p> 
+            <p class="project-description">Platzi video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear vista detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataformas.</p>
+        </div>
+        <figure class="project-imageContainer">
+            <img src="img/hmaJS.jpg" >
+        </figure>
+    </article>
     </section>
 
     <section id="experiencia">
@@ -68,22 +69,36 @@
             <p>El evento más grande sobre gente que quiere aprender más de Internet</p>
             <a href="https://www.youtube.com/watch?v=7RNzkzhPDO0" target="_blank">Ver Plática</a>
         </article>
+       
     </section>
     
-    <section id="contacto">
-        <form action="/suscription">
+    <section id="contacto" class="contact">
+        <form action="/suscription" class="form-email">
             <h3>Creamos algo Juntos</h3>
             <input type="text" placeholder="Déjame tu email" id="email">   
             <input type="submit" value="Enviar">
-            
         </form>
-
-
+        <div class="social">
+            <figure class="logitos" width="50">
+                <img src="https://image.flaticon.com/icons/svg/174/174855.svg" width ="50">
+                <img src="img/facebook.svg">
+                <img src="img/github.svg">
+                <img src="img/instagram.svg">
+            </figure>
+        </div>
     </section>
 
-    
-    
-    <footer>Footer</footer>
+       
+    <footer>
+        <div class="footer-left">
+            <p>Curso Desarrollo Web Online 2020
+               <img src="img/platzi.png">
+            </p>
+        </div>
+        <div class="footer-right">
+         <p>Diseñado por Héctor Molero Arana</p>
+        </div>
+    </footer>
     
 </body>
 </html>
