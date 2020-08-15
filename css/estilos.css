@@ -3,19 +3,38 @@
     margin: 0; 
   }
  
-body{
-    font-family: 'Source Sans Pro', sans-serif    
-}
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Fjalla one', sans-serif;
-}   
-h1{
-    font-size: 40px;
-    line-height: 1.5;
-    color: white;
-}
+  body{
+      font-family: 'Source Sans Pro', sans-serif    
+    }
+    h1,h2,h3,h4,h5,h6{
+        font-family: 'Fjalla one', sans-serif;
+    }   
+    h1{
+        font-size: 40px;
+        line-height: 1.5;
+        color: white;
+    }
+    
+    .header{
+        display: flex;
+        background-image: url("https://previews.dropbox.com/p/thumb/AA4E1cE354BRtkMJOgmrcQlqWJvR1PlPwGegiwWGQjeSNtZ8jIAB3sWZWyYuRtEAsCqpzitumDvl4A7V2Td0S3qK1aP9ZbTmg5eDgv8nwe3_ijv5C3rryVoxZlqU27EK-8mU9NU8CbRfEurNjibdUohizYToHD6bapPEWmakopEYZF_ZpHf3R-HdHrdwwvV6uklkUEPMRsJacBWQ9HQyH_tDWTyZBiSPTyJCLkp5KKLBwAkovG9kG8I51QBdLiPmWUcI6MAZLx3u-BA5Hwwq6tFgXepMYnVmkT7UKXBsw425xLtsFyeOhCSYESpEe1-n6wZFoua_FaCUhRlbWvhDpl9y4y5PjQsGe27psIIlTx86ww/p.jpeg?fv_content=true&size_mode=5");
+        background-size: 100%;
+        justify-content: space-between;
+        align-items: center;
+        height: 130px;
+    }
+    
+    .link{
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+        font-size: 22px;
+    }
+
 .logo img{
-    width: 60px;
+    margin-left: 15px;
+    height: 50%;
+    vertical-align: middle;
 }
 .hero{      
     height: 300px;
@@ -52,26 +71,35 @@ h1 strong{
     width: 500px;
     border-radius: 25px;
 }
+/* ****************************************************** */
 
-.header{
-    display: flex;
-    background-color: #1b2127;
-    justify-content: space-between;
-    color: white;
-    align-items: center;
+#experiencia{
+    
+    background-color: white;
 }
 
-.link{
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
-    font-size: 20px;
+.works-experiencia{
+    
+}
+
+.experiens{
+    display: flex;
+    justify-content: space-between;    
+    border: 1px solid #626262;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
  }
+
+.work-description{ 
+    width: 500px;
+}
 
 figure{
     margin 0;
 }
 
+/* ****************************************************** */
 
 .contact{
     display: flex;
@@ -79,19 +107,60 @@ figure{
     color: white;
     background-color: #056fff;
     align-items: center;
-}
-
-footer{
-    display: flex;
-    height: 80px;
-    background-color: #1b2127;
-    color:wHite;
     justify-content: space-between;
 }
-.logitos{
-    width:50px;
+.form-email{
+
+}
+
+
+.social{
     height: 50px;
-} 
+    width: 210px;
+    height: 50px;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+}
+
+
+.social-link.twitter{
+    background-image: url('../img/twitter.svg');
+}
+.social-link.facebook{
+    background-image: url('../img/facebook.svg');
+}
+.social-link.git{
+    background-image: url('../img/github.svg');
+}
+.social-link.instagram{
+    background-image: url('../img/instagram.svg');
+}
+
+
+/* ****************************************************** */
+
+.footer{
+    display: flex;
+    height: 100px;
+    background-color: #1b2127;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px; /* lado izquierdo y derecho */
+}
+/* Centrar imagen del footer */
+.footer img{
+    vertical-align: middle;
+}
+
+
 
 /* colores a utilizar 
 gris oscuro = #1d252c
