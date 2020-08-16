@@ -14,7 +14,6 @@
         line-height: 1.5;
         color: white;
     }
-    
     .header{
         display: flex;
         background-image: url("https://previews.dropbox.com/p/thumb/AA4E1cE354BRtkMJOgmrcQlqWJvR1PlPwGegiwWGQjeSNtZ8jIAB3sWZWyYuRtEAsCqpzitumDvl4A7V2Td0S3qK1aP9ZbTmg5eDgv8nwe3_ijv5C3rryVoxZlqU27EK-8mU9NU8CbRfEurNjibdUohizYToHD6bapPEWmakopEYZF_ZpHf3R-HdHrdwwvV6uklkUEPMRsJacBWQ9HQyH_tDWTyZBiSPTyJCLkp5KKLBwAkovG9kG8I51QBdLiPmWUcI6MAZLx3u-BA5Hwwq6tFgXepMYnVmkT7UKXBsw425xLtsFyeOhCSYESpEe1-n6wZFoua_FaCUhRlbWvhDpl9y4y5PjQsGe27psIIlTx86ww/p.jpeg?fv_content=true&size_mode=5");
@@ -23,14 +22,12 @@
         align-items: center;
         height: 130px;
     }
-    
     .link{
         text-decoration: none;
         color: white;
         margin-right: 20px;
         font-size: 22px;
     }
-
 .logo img{
     margin-left: 15px;
     height: 50%;
@@ -50,8 +47,6 @@
 h1 strong{
     color: #22adee;
 }
- 
-
 .project{
     display: flex;
     border: 1px solid #626262;
@@ -61,12 +56,10 @@ h1 strong{
     padding: 20px;
     background-color: white;;
 }
-
 .project-details{
     width: 500px;
     height: 200px;
 }
-
 .project-imageContainer img{
     width: 500px;
     border-radius: 25px;
@@ -74,10 +67,8 @@ h1 strong{
 /* ****************************************************** */
 
 #experiencia{
-    
     background-color: white;
 }
-
 .experiens{
     display: flex;
     justify-content: space-between;    
@@ -86,11 +77,9 @@ h1 strong{
     margin: 10px;
     padding: 20px;
  }
-
 .work-description{ 
     width: 500px;
 }
-
 figure{
     margin 0;
 }
@@ -125,8 +114,6 @@ figure{
     margin: 0 auto;
     margin-top: 10px;
 }
-
-
 .social{
     height: 50px;
     width: 210px;
@@ -134,15 +121,12 @@ figure{
     align-items: center;
     margin-right: 15px;
 }
-
 .social-link{
     display: inline-block;
     width: 50px;
     height: 50px;
     background-size: 50px 50px;
 }
-
-
 .social-link.twitter{
     background-image: url('../img/twitter.svg');
 }
@@ -156,9 +140,7 @@ figure{
     background-image: url('../img/instagram.svg');
 }
 
-
 /* ****************************************************** */
-
 .footer{
     display: flex;
     height: 100px;
@@ -172,8 +154,6 @@ figure{
 .footer img{
     vertical-align: middle;
 }
-
-
 
 /* colores a utilizar 
 gris oscuro = #1d252c
